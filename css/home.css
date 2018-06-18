@@ -1,0 +1,334 @@
+.ind {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #3d79bd;
+}
+
+
+.progress-container {
+  width: 100%;
+  height: 15px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 15px;
+  background: #3d79bd;
+  width: 0%;
+}
+
+
+
+
+.container{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+  
+ 
+
+
+.head {
+  color: white;
+  animation-name: springy-text;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+@keyframes springy-text {
+  0%   {
+    letter-spacing: 0.6em;
+    color: white;
+  }
+  100%   {
+    letter-spacing: 0.2em;
+    color: white;
+  }
+}
+
+
+
+
+		.buddha { 
+				 position: relative; 
+				   width: 100%;
+				}
+
+		.head { 
+			  color: white;
+			   position: absolute; 
+			   top: 0px; 
+			   left: 0px; 
+			   width: 100%;
+			   font-family: 'Condiment';font-size: 100px;
+ 			}
+ 			
+ 			.imgani{
+ 				width:100%;
+ 			}
+	#b1, #b2, #b3, #b4{
+		width: 280px;
+ 	margin-top:0%;
+ 	margin-left:0%;
+		}
+	#b1{
+
+		position: absolute;
+		animation-name: bb1;
+		 animation:bb1 1s linear infinite alternate;
+		  animation-iteration-count: 1;
+		  animation-delay:0s;
+
+	}
+	 
+	@keyframes bb1 {
+  
+  0%, 100% {
+    transform: translate(0, 150);
+  }
+  
+  
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+	
+	#b2{
+	
+		position: absolute;
+		animation-name: bb2;
+		 animation:bb2 1s linear infinite alternate;
+		  animation-iteration-count: 1;
+		  animation-delay: 0;
+
+	}
+	 
+	@keyframes bb2 {
+  
+  
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  
+}
+
+	#b3{
+		position: absolute;
+		animation-name: bb3;
+		 animation:bb3 2s linear infinite alternate;
+		  animation-iteration-count: 1;
+		  animation-delay:0s;
+
+	}
+	 
+	@keyframes bb3 {
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+	#b4{
+		position: absolute;
+		animation-name: bb4;
+		 animation:bb4 2.5s linear infinite alternate;
+		  animation-iteration-count: 1;
+		  animation-delay: 0;
+
+	}
+	 
+	@keyframes bb4 {
+  
+  0%, 100% {
+    transform: translate(0, 150);
+  }
+  
+ 
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+
+
+
+
+			/*naavigation buttons*/
+
+				body{
+
+			    font-size: 28px;
+			}
+			ul {
+
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 15px;
+			    overflow: hidden;
+			    background-color: #333;
+			    position: -webkit-sticky; /* Safari */
+			    position: sticky;
+			    top: 0;
+			}
+			
+
+			 li {
+			   display:inline-block;
+			}
+
+			 li a {
+			    text-decoration: none;
+			    color: white;
+			    text-align: center;
+			    padding: 10px 15px;
+			    text-decoration: none;
+			}
+ li:nth-child(7){
+float: right;
+}
+			li a:hover {
+				  text-decoration: none;
+			    background-color: #111;
+			}
+			
+			.active {
+			    background-color: #4CAF50;
+			}
+
+
+
+				/*slideshow*/
+				.slideshow{
+				display: black;
+    			margin-left: auto;%;
+    			margin-right: auto%;
+}
+				
+
+.gif{
+	margin-left: 45%;
+	width: 50px;
+  	animation: shake 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+
+
+
+				/*1st para*/
+				.enjoy{
+					 text-align: justify;
+				}
+
+					.head2{ 
+						
+						  font-family: 'Condiment';font-size: 120px;
+					}
+					.head21{
+						 font-family: 'Gloria Hallelujah', cursive;font-size: 40px;
+					}
+											
+					.head22{
+						font-family: 'Yesteryear';font-size: 70px;
+					}
+					
+					.best{
+						font-family: 'Gloria Hallelujah', cursive;font-size: 40px;
+					}
+					.about { 
+				  	 font-family: 'Lobster', cursive;
+					font-family: 'Merriweather Sans', sans-serif;
+					font-family: 'Jua', sans-serif;
+				    font-family: 'Heebo', sans-serif;
+				   }
+				   
+				   .your{
+				   	font-family: 'Gloria Hallelujah', cursive;font-size: 100px;
+				   }
+				   .honeymoon{
+				   		font-size: 70px;
+				   	font-family: 'Righteous', cursive;
+					font-family: 'Courgette', cursive;
+				   } 
+				   .candle{
+				   		font-size: 55px;
+				   	font-family: 'Righteous', cursive;
+					font-family: 'Courgette', cursive
+				   }
+				   .boat{
+				   	font-size: 60px;
+				   	font-family: 'Righteous', cursive;
+					font-family: 'Courgette', cursive;
+				   }
+				  
+				   .spa{
+				   	font-size: 80px;
+				   	font-family: 'Righteous', cursive;
+					font-family: 'Courgette', cursive;
+				}
+				
+				.hr{
+
+					  border-bottom: 5px solid black;
+				}
+
+
+				
+				td:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+				
+
+
+
+
+					

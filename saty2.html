@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+<style>
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("img/IbzVqV3.jpg");
+
+    min-height: 670px;
+    
+
+    /* Center and scale the image nicely */
+    background-position: all;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+/* Add styles to the form container */
+.container1 {
+    position: absolute;
+    margin-top: 10px;
+    right: 120px;
+    
+    max-width: 300px;
+    padding: 16px;
+    background-color: lightblue;
+    border: solid black 3px;
+    opacity: 0.75;
+    border-radius: 14px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number], input[type=email], input[type=date], input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=email]:focus, input[type=date]:focus, input[type=date]:focus {
+    background-color: #ddd````````````;
+    outline: none;
+}
+
+
+
+/*dropdown8*/
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="bg-img"> </div>
+<div style="margin-top: -666px;">
+<form action="stay2.php" method="post">
+    <div class="container1">
+      <h1 align="center">STAY</h1>
+
+      <label><b>FULLNAME</b></label>
+      <input type="text" placeholder="fullname" name="fullname" id="fullname" required>
+
+
+      <label for="email"><b>EMAILID</b></label>
+      <input type="email" placeholder="email id" id="email" name="email" required>
+
+      <label for="phonenumber"><b>PHONENUMBER</b></label>
+      <input type="number" placeholder="PHONENUMBER" id="phonenumber" name="phonenumber" required>
+
+      <label for="from"><b>FROM</b></label>
+      <input type="date" name="datefrom" id="datefrom" required>
+
+      <label for="to"><b>TO</b></label>
+      <input type="date" name="dateto" id="dateto" required>
+
+      <button type="submit" name="submit" id="submit" class="btn"><b>SUBMIT</b></button>
+    </div>
+  </form>
+</div>
+
+    </div>
+
+
+</body>
+</html>

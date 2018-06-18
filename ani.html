@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>img ani</title>
+<style>
+	#b1, #b2, #b3, #b4{
+		width: 200px;
+ 	margin-top: 10%;
+ 	margin-left: 40%;
+
+	}
+	#b1{
+
+		position: absolute;
+		animation-name: bb1;
+		 animation:bb1 1.5s linear infinite alternate;
+		  animation-iteration-count: 1;
+		  animation-delay: 0;
+
+	}
+	 
+	@keyframes bb1 {
+  
+  0%, 100% {
+    transform: translate(0, 150);
+  }
+  
+  
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+	
+	#b2{
+	
+		position: absolute;
+		animation-name: bb2;
+		 animation:bb2 1s linear infinite alternate;
+		  animation-iteration-count: 1;
+		  animation-delay: 0;
+
+	}
+	 
+	@keyframes bb2 {
+  
+  0%, 100% {
+    transform: translate(0, 150);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  
+}
+
+	#b3{
+		position: absolute;
+	
+		animation-name: bb3;
+		 animation:bb3 2s linear infinite alternate;
+		  animation-iteration-count: 1;
+		  animation-delay: 0;
+
+	}
+	 
+	@keyframes bb3 {
+  
+  0%, 100% {
+    transform: translate(0, 150);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+	#b4{
+		position: absolute;
+		animation-name: bb4;
+		 animation:bb4 2.5s linear infinite alternate;
+		  animation-iteration-count: 1;
+		  animation-delay: 0;
+
+	}
+	 
+	@keyframes bb4 {
+  
+  0%, 100% {
+    transform: translate(0, 150);
+  }
+  
+ 
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+
+</style>
+</head>
+<body>
+<div class="imgani">
+<img id="b1" src="img/b1.png">
+<img id="b2" src="img/b2.png">
+<img id="b3" src="img/b3.png">
+<img id="b4" src="img/b4.png">
+
+
+</div>	
+
+</body>
+</html>
